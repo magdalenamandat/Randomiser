@@ -32,4 +32,32 @@ public class PersonTest {
             assertEquals("f", person.getGender());
         }
 
+        @Test
+        public void canSetFirstName(){
+            person.setFirstName("Anna");
+            assertEquals("Anna", person.getFirstName());
         }
+
+        @Test
+        public void canSetLasttName(){
+            person.setLastName("Madrala");
+            assertEquals("Madrala", person.getLastName());
+        }
+
+        @Test
+        public void canSetAge(){
+            person.setAge(30);
+            assertEquals(30, person.getAge());
+        }
+
+        @Test
+        public void canSetGender(){
+            person.setGender("f");
+            assertEquals("f", person.getGender());
+        }
+
+        }
+
+
+
+
