@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-import static spark.Spark.get;
 
 public class Name {
 
@@ -21,7 +20,7 @@ public class Name {
         Collections.shuffle(names);
     }
 
-    public String randomName(){
+    public String oneRandomName(){
         shuffleNames();
         return names.get(0);
     }

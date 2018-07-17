@@ -17,7 +17,7 @@ public class NameController {
             get("/one", (req, res) -> {
 
                 Name name = new Name();
-                String result = name.randomName();
+                String result = name.oneRandomName();
 
                 HashMap<String, Object> model = new HashMap<>();
                 model.put("name", result);
